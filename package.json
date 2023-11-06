@@ -1,0 +1,27 @@
+{
+  "name": "reactdev",
+  "version": "1.0.0",
+  "description": "This is karthhick React Dev",
+  "main": "App.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/karthickI23/DevMaster.git)"
+  },
+  "keywords": [],
+  "author": "karthick I",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.10.2",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browerslist": [
+    "last 2 versions"
+  ]
+}
