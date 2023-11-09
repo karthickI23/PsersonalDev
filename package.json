@@ -5,6 +5,7 @@
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
+    "deploy": "gh-pages -d dist",
     "test": "test"
   },
   "repository": {
@@ -15,6 +16,7 @@
   "author": "karthick I",
   "license": "ISC",
   "devDependencies": {
+    "gh-pages": "^6.0.0",
     "parcel": "^2.10.2",
     "process": "^0.11.10"
   },
