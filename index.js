@@ -1,15 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { createStore } from "redux";
+import { Provider } from "react-redux";
+import rootReducer from "./reducers";
 import App from './App';
-import { ThemeProvider } from './context/ThemeContext';
 import './index.css';
 import './variables/colorVariable.module.css'
 
+const store = createStore(rootReducer);
+
 ReactDOM.render(
-  <React.StrictMode>
-    <ThemeProvider>
-      <App />
-    </ThemeProvider>
-  </React.StrictMode>,
+  <Provider store={store}>
+    <ContactPage />
+  </Provider>,
   document.getElementById('root')
 );

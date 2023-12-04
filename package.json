@@ -23,7 +23,10 @@
   "dependencies": {
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-redux": "^9.0.0",
+    "react-super-responsive-table": "^5.2.2",
+    "redux": "^5.0.0"
   },
   "browerslist": [
     "last 2 versions"
