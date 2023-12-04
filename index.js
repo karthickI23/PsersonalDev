@@ -11,7 +11,7 @@ const store = createStore(rootReducer);
 
 ReactDOM.render(
   <Provider store={store}>
-    <ContactPage />
+    <App />
   </Provider>,
   document.getElementById('root')
 );
